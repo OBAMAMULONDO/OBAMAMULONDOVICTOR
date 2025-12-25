@@ -2,8 +2,7 @@
   
 }
 body{
-  //background: url("../images/web_background.jpg");
-  background-color:red;
+  background: url("../images/web_background.jpg");
   background-size: cover;
   min-height:100vh;
   background-attachment: fixed;
@@ -543,6 +542,7 @@ footer{
 
 
   
+
 
 
 

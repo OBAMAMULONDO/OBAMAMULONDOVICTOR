@@ -2,7 +2,8 @@
   
 }
 body{
-  background: url("../images/web_background.jpg");
+  //background: url("../images/web_background.jpg");
+  background-color:red;
   background-size: cover;
   min-height:100vh;
   background-attachment: fixed;
@@ -10,7 +11,7 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-repeat: no-repeat;
   background-position: center;
-  //color: white;
+  color: white;
 
 }
 h1{
@@ -542,6 +543,7 @@ footer{
 
 
   
+
 
 
 

@@ -2,7 +2,7 @@
   
 }
 body{
-  background: url('/images/web_background.jpg');
+  background: url('../images/web_background.jpg');
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -541,6 +541,7 @@ footer{
 
 
   
+
 
 
 

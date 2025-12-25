@@ -1,1 +1,13 @@
 
+body{
+  background: url("images/web_background.jpg");
+  background-size: cover;
+  min-height:100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+
+}

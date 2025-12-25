@@ -85,12 +85,15 @@ write git clone <copy url here>
 
    - **Clone using Git**
      ```bash
-     git clone https://github.com/USERNAME/REPOSITORY-NAME.git
+     git clone https://github.com/USERNAME/REPOSITORY-NAME.git ====> git clone https://obamamulondo.github.io/OBAMAMULONDOVICTOR
+
+     or test and see the website by viewing url https://obamamulondo.github.io/OBAMAMULONDOVICTOR  
      ```
      - Open the project folder.
      - Open `index.html` in your browser or use Live Server.
 
 7. The website will open in your browser.
+
 
 
 

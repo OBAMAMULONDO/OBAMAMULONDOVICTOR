@@ -578,9 +578,69 @@
      <script src="JS/index.js"></script>
 
      <script src="JS/hide_menu.js"></script>
+
+         <!-- animation js from jQuery.js CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            // change text animation
+         $(document).ready(function() {
+    var words = ['A Developer', 'A Designer', 'A Creator', 'A Coder', 'A Freelancer'];
+    var i = 0;
+
+    setInterval(function() {
+        // fade out current text
+        $(".change").fadeOut(function() {
+            // update text
+            $(this).text(words[i]).fadeIn();
+        
+        });
+
+        // move to next word
+        i = (i + 1) % words.length;
+    }, 3000); // change every 3 seconds
+}
+
+
+
+
+);
+// image reveal animation
+$("img").fadeIn(2000);
+// right content animation auto write
+$(".right-content2").each(function() {
+    var text = $(this).text();
+    $(this).html('');
+    var i = 0;
+    var interval = setInterval(function() {
+        if (i < text.length) {
+            $(".right-content2").append(text.charAt(i));
+            i++;
+        } else {
+            clearInterval(interval);
+        }
+    }, 20); // typing speed in milliseconds
+
+
+
+
+
+
+    // closing the code after document is ready
+    
+});
+
+
+
+
+
+      
+
+
+        </script>
 </body>
 
 </html>
+
 
 
 

@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://obamamulondo.github.io/OBAMAMULONDOVICTOR/sitemap.xml
